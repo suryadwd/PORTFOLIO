@@ -18,7 +18,7 @@ const Home = () => {
 
             <div className="flex flex-col xl:flex-row items-center gap-8">
               
-              <a href="/CV.pdf.jpg" download={CV.pdf.jpg}>
+              <a href="/CV.pdf.jpg" download="CV.pdf.jpg">
               <Button variant="outline" size="lg" className="hover:bg-accent transition-all ease-in-out duration-75 hover:text-black  rounded-xl flex items-center gap-2">
                 <span>Download CV</span>
                 <FiDownload  className="text-xl"/>
